@@ -1,0 +1,77 @@
+<resources>
+
+
+    <style name="AppTheme.light" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLight</item>
+        <item name="colorAccent">@color/colorAccentLight</item>
+        <item name="android:textColor">@color/primaryTextColorDark</item>
+    </style>
+
+    <style name="AppTheme.black" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryTextColorDark</item>
+        <item name="colorPrimaryDark">@color/primaryTextColorDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+
+        <item name="android:windowBackground">@color/primaryTextColorDark</item>
+        <item name="android:textColor">@color/colorAccentDark</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+    </style>
+    <style name="SpinnerItem">
+        <item name="android:textColor">@color/primaryTextColorLight</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="SpinnerDropDownItem">
+        <item name="android:textColor">@color/primaryTextColorLight</item>
+        <item name="android:background">@color/colorAccentDark</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="AppTheme.dark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDark</item>
+        <item name="colorAccent">@color/colorAccentDark</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.red" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
+        <item name="colorAccent">@color/colorAccentRed</item>
+    </style>
+
+    <style name="AppTheme.green" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+    </style>
+
+    <style name="AppTheme.blue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlue</item>
+        <item name="colorAccent">@color/colorAccentBlue</item>
+    </style>
+
+    <style name="AppTheme.yellow" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryYellow</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkYellow</item>
+        <item name="colorAccent">@color/colorAccentYellow</item>
+        <item name="android:textColor">@color/primaryTextColorDark</item>
+    </style>
+
+    <style name="AppTheme.purple" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPurple</item>
+        <item name="colorAccent">@color/colorAccentPurple</item>
+    </style>
+
+</resources>
