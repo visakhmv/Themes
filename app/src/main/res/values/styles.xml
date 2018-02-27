@@ -72,7 +72,6 @@
         <item name="colorPrimary">@color/colorPrimaryYellow</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkYellow</item>
         <item name="colorAccent">@color/colorAccentYellow</item>
-        <item name="android:textColor">@color/primaryTextColorDark</item>
         <item name="android:navigationBarColor">@color/colorPrimaryYellow</item>
     </style>
 
