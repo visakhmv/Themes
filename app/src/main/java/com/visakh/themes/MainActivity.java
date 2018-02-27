@@ -50,10 +50,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public void setMyTheme(){
         SharedPreferences prefs = getSharedPreferences("theme", MODE_PRIVATE);
-        String style = prefs.getString("style", null);
-        if (style == null) {
-            style = themes[0];
-        }
+        String style = prefs.getString("style", "Light");
         switch (style){
             case "Light":
                 setTheme(R.style.AppTheme_light);
